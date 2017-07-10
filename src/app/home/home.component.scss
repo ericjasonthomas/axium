@@ -1,0 +1,230 @@
+// I know kinda weird ....
+// https://github.com/angular/angular-cli/issues/3700
+@import "../../scss/variables";
+
+.product-top {
+	display: block;
+	background-color: #000;
+	background-image: url(../../assets/images/topsection-background.png);
+	box-shadow:0px 6px 6px -2px #676767;
+	//z-index:6666;
+}
+.product-details {
+	//width: 100%;
+	//display:block;
+	background: rgba(0, 0, 0, 0.5);
+//	margin: 0 auto;
+	color:#fff;
+}
+.productintro {
+	border-radius: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+.breadcrumb {
+	// font-family: $nav-font;
+	// font-weight: $nav-font-weight;
+	// font-style: $nav-font-style;
+	background: none;
+	font-size: 1rem;
+	// padding-left:1.250rem;
+		padding-top: 26px;
+		padding-left: 6px;
+	margin-bottom: 10px;
+
+	a {
+		color:#fff;
+	}
+	li:not(:last-child):after {
+	     content: " > ";
+	}
+	.active {
+		text-decoration: none;
+		font-weight: bold;
+	}
+	.beenthere {
+		text-decoration: underline;
+	}
+	ul {
+		padding: 0px;
+	}
+	ul li{
+	 display: inline;
+	 color:#fff;
+ }
+}
+.product-story {
+	display: block;
+	width: 100%;
+	// background-color: $gray-light;
+	//box-shadow:0px 6px 6px -2px #676767;
+	 position: relative;
+
+}
+.productcontent {
+	display: block;
+	background-color: $gray-light;
+	box-shadow:0px 6px 6px -2px #00243a;
+	position: relative;
+}
+.product-img {
+	text-align: center;
+	//margin-bottom: 4rem;
+	margin-bottom: 64px;
+	img {
+		margin: 0 auto;
+	}
+}
+.productpage {
+	display: block;
+	background: #00314f;
+	position: relative;
+	h2 {
+		padding-top: 4px;
+		font-size: 2.8rem;
+		letter-spacing: 0.036rem;
+		margin-bottom: 1.5rem;
+	}
+}
+.about-product {
+	padding-left: 18px;
+	display: inline-block;
+	// border: 1px solid #ccc;
+}
+.regmark {
+	font-size: 0.25rem;
+	line-height: 1.25rem;
+	vertical-align: top;
+}
+.product-facts {
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	list-style: none;
+	font-size: 1.000rem;
+	//line-height: 0.875rem;
+	line-height: 1.9rem;
+	margin-bottom: 30px;
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+}
+.product-reviews {
+	color:#fff;
+}
+.product-story .container {
+	margin-top:20px;
+}
+
+.product-story .container{
+	padding: 0px;
+}
+
+.product-story .story {
+	color:#fff;
+	width: 80%;
+	margin-bottom: 100px;
+}
+.product-story img {
+	margin-top: 6px;
+	margin-left: 1px;
+}
+.productpage {
+	.col-md-8 {
+		flex:55%;
+		max-width:55%;
+	}
+	.col-md-4 {
+		flex:45%;
+		max-width:45%;
+		padding-left:10px;
+	}
+}
+.cart-tools {
+	display: inline-block;
+	width: 294px;
+	// border: 1px solid #ccc;
+	padding: 0px;
+	margin: 0px;
+}
+// ------------- //
+.product-reviews {
+	margin-top: 40px;
+	padding-bottom: 30px;
+	display:block;
+	 position: relative;
+	//text-align: center;
+	.container {
+		width:1190px;
+	}
+	.reviews {
+	}
+	.review-heading {
+		h2 {
+			display: inline-block;
+			margin-left: 154px;
+			margin-bottom: 0;
+			padding-top: 0;
+		//	padding-left: 14px;
+		}
+		.write-review {
+			display: inline-block;
+			margin-left: 48px;
+		}
+	}
+	.review {
+		display: block;
+		// border: 1px solid #ccc;
+		width:100%;
+		margin-top: 38px;
+	}
+	.reviewer {
+		display: inline-block;
+	//	border: 1px solid #ccc;
+		width:154px;
+		vertical-align: top;
+		//float: left;
+	}
+	.review-content {
+		display: inline-block;
+	//	border: 1px solid #ccc;
+		width:800px;
+	}
+	.reviewer-img {
+		padding-top: .5rem;
+		img{
+			border: 1px solid #fff;
+		}
+	}
+	.reviewer-name {
+		font-family: Arial;
+		font-size: 1rem;
+	}
+	.review-content {
+		//padding-left: 14px;
+	}
+	.review-title {
+		.title {
+		font-family: Arial;
+		font-size: 1.4rem;
+		font-weight: bold;
+		}
+		.date {
+			padding-left: 0.5rem;
+			font-size: 1.4rem;
+		}
+		.rating {
+			padding-left: 1.5rem;
+			img {
+				padding:.0rem .2rem .5rem .2rem;
+			}
+			//vertical-align: top;
+			//line-height: 2rem;
+		}
+	}
+	.review-txt {
+		// margin-top:30px;
+		//display: block;
+		padding-top:1.5rem;
+	}
+}

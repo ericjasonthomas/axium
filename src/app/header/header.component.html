@@ -1,0 +1,55 @@
+<div id="header">
+	<div class="container">
+		<a class="brandimg" href="#" tabindex="-1" routerLink="/" routerLinkActive="active"><img src="../assets/images/axiom-logo-main.png" alt="Logo" ></a>
+		<div class="headernav">
+			<div class="sitesearch" tabindex="-1">
+				<form>
+					<input type="text" placeholder="Search for gear" class="search" tab-group="g1">
+				</form>
+			</div>
+			<div class="headernavlist">
+				<ul class="sociallinks">
+					<li class="fb"><a href="#" tab-group="g1"></a></li>
+					<li class="tw"><a href="#" tab-group="g1"></a></li>
+				</ul>
+				<ul class="navlinks">
+					<li><a routerLink="/account" routerLinkActive="active">My Account</a></li>
+					<li><a href="#">Cart</a></li>
+					<li><a href="#">Logout</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!--  -->
+<nav class="navbar navbar-toggleable-md navbar-light">
+	<div class="container">
+  <button class="navbar-toggler navbar-toggler-right" (click)="isNavCollapsed = !isNavCollapsed" type="button">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+	<!--  -->
+	<div class="collapse navbar-collapse" id="nav-bar" aria-labelledby="NavCollapsed" [ngbCollapse]="!isNavCollapsed">
+			<!-- <div class="container"> -->
+				<div class="navbar-nav">
+					<ul class="nav">
+					 <li class="nav-item"><a href="#" class="mainlink">Camping <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+					 <li class="nav-item subnav"><a href="#" class="mainlink">Clothing <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+						 <div class="submenu">
+							 <ul>
+							 <li><a href="#" >Outerware</a></li>
+							 <li><a href="#" >Hiking Shoes</a></li>
+							 <li><a href="#" >Gloves</a></li>
+							 <li><a href="#" >Hats</a></li>
+						 </ul>
+					 </div>
+					 </li>
+					 <li class="nav-item"><a href="#" class="mainlink">Fishing <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+					 <li class="nav-item"><a href="#" class="mainlink">Hiking <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+					 <li class="nav-item"><a href="#" class="mainlink">Biking <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+				 	</ul>
+		 		</div>
+		 <!-- </div> -->
+	</div>
+		 <!--  -->
+</div>
+</nav>

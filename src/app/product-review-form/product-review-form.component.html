@@ -1,0 +1,29 @@
+<ng-template #content let-c="close" let-d="dismiss">
+  <div class="modal-body">
+		<div class="product-review-title">
+			<span class="review-msg">Please Rate the</span><span class="product-name">Tough Mojo Jacket<span class="regmark">&#174;</span></span>
+			<span class="star-rating">
+				<app-rating></app-rating>
+			</span>
+		</div>
+		<div class="reviewform">
+			<div class="review-title">
+				<span class="titlelable">Review Title:</span><input type="text" name="reviewTitle" class="reviewtitle" size="40"><br>
+			</div>
+				<textarea ng-model="user.review" class="userReview" rows="5" placeholder="-Write your review here-" md-select-on-focus></textarea>
+		</div>
+    <form>
+			<div>
+			</div>
+		</form>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-primary" (click)="c('Close click')">Submit Review</button>
+  </div>
+</ng-template>
+<!-- <a href="#" (click)="open(content)">Write a Review</a> -->
+<button class="review-btn" (click)="open(content)">Write a review on this product</button>
+<!-- <button class="btn btn-lg btn-outline-primary" (click)="open(content)">Launch demo modal</button> -->
+<!-- <hr> -->
+
+<!-- <pre>{{closeResult}}</pre> -->

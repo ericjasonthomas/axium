@@ -1,0 +1,68 @@
+.review-btn {
+	background: none;
+	border: none;
+	cursor: pointer;
+	text-decoration: underline;
+	color: #fff;
+	font-weight: 100;
+	outline: none;
+}
+.review-msg {
+	font-size: 0.875rem;
+	font-weight: 200;
+	padding-right: 0.350rem;
+	display: inline-block;
+
+}
+.product-name {
+	font-size: 0.875rem;
+	font-weight:bold;
+}
+.regmark {
+	font-size: 0.083rem;
+	line-height: 0.875rem;
+	vertical-align: text-top;
+}
+.star-rating {
+	//display: inline-block;
+	margin-left: 0.350rem;
+}
+.txtbox {
+	display: block;
+	height: 200px;
+	width: 100%;
+	border: 1px solid #ccc;
+}
+.reviewform {
+	display:block;
+	width: 100%;
+	hieght:200px !important;
+	position: relative;
+	// border: 1px solid #000;
+}
+.userReview {
+	width:100%;
+	font-size: 0.875rem;
+	font-weight: 200;
+}
+.titlelable {
+	font-size: 0.875rem;
+	width: 20%;
+}
+.reviewtitle {
+	font-size: 0.875rem;
+	width: 80%;
+	float: right;
+}
+.star-rating *:focus {
+    outline: none;
+		border: none;
+}
+.d-inline-flex{
+	outline:none;
+	border: none;
+}
+.review-title {
+	display: block;
+	margin-bottom:6px;
+}

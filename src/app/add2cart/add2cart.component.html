@@ -1,0 +1,62 @@
+<div class="select-btns">
+	<!--  -->
+  <div class="col control-left">
+		<!--  -->
+		<div class="btn-row">
+		<div ngbDropdown class="d-inline-block selectsize">
+			<div class="btn-group">
+	<div class="btn btn-secondary btn-teal input">
+		{{SelectSize}}
+	</div>
+	<button type="button" class="btn btn-secondary btn-teal dropdown-toggle dropdown-toggle-split" ngbDropdownToggle aria-haspopup="true" aria-expanded="false">
+		<span class="sr-only">Toggle Dropdown</span>
+	</button>
+</div>
+			<div class="dropdown-menu utility-item" aria-labelledby="dropdownColors">
+				<button *ngFor="let size of sizes" class="dropdown-item btn-teal" [value]="size.name" (click)="sizechange($event)">{{size.name}}</button>
+			</div>
+		</div>
+	</div>
+	<!--  -->
+	<div class="btn-row">
+	<div class="label">Quanity</div>
+	<div class="input-group quantity">
+		<span class="input-group-btn dropdown">
+			<button class="btn btn-teal btn-secondary dropdown-toggle dropdown-toggle-split" type="button" (click)="minusone()"></button>
+		</span>
+
+		<input name="productquantity" type="text" class="form-control numinput" placeholder="{{SelectQuantity}}" value="{{SelectQuantity}}">
+
+		<span class="input-group-btn dropup">
+			<button class="btn btn-teal btn-secondary dropdown-toggle dropdown-toggle-split" type="button" (click)="plusone()"></button>
+		</span>
+	</div>
+	</div>
+</div>
+<!--  -->
+<!--  -->
+	<!--  -->
+	<!--  -->
+	<div class="col control-right">
+		<div class="btn-row">
+		<div ngbDropdown class="d-inline-block selectcolor">
+			<div class="btn-group">
+			  <div class="btn btn-secondary btn-teal input">
+			    {{SelectColor}}
+			  </div>
+			  <button type="button" class="btn btn-secondary btn-teal dropdown-toggle dropdown-toggle-split" ngbDropdownToggle aria-haspopup="true" aria-expanded="false">
+			    <span class="sr-only">Toggle Dropdown</span>
+			  </button>
+			</div>
+			<div class="dropdown-menu utility-item" aria-labelledby="dropdownColors">
+				<button *ngFor="let color of colors" class="dropdown-item btn-teal" [value]="color.name" (click)="colorchange($event)">{{color.name}}</button>
+			</div>
+		</div>
+	</div>
+	<!--  -->
+	<div class="btn-row">
+		<button class="btn btn-primary">Add To Cart</button>
+	</div>
+	<!--  -->
+	</div>
+</div>
