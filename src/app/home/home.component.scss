@@ -7,13 +7,9 @@
 	background-color: #000;
 	background-image: url(../../assets/images/topsection-background.png);
 	box-shadow:0px 6px 6px -2px #676767;
-	//z-index:6666;
 }
 .product-details {
-	//width: 100%;
-	//display:block;
 	background: rgba(0, 0, 0, 0.5);
-//	margin: 0 auto;
 	color:#fff;
 }
 .productintro {
@@ -22,14 +18,10 @@
 	margin: 0px;
 }
 .breadcrumb {
-	// font-family: $nav-font;
-	// font-weight: $nav-font-weight;
-	// font-style: $nav-font-style;
 	background: none;
 	font-size: 1rem;
-	// padding-left:1.250rem;
-		padding-top: 26px;
-		padding-left: 6px;
+	padding-top: 26px;
+	padding-left: 6px;
 	margin-bottom: 10px;
 
 	a {
@@ -56,10 +48,7 @@
 .product-story {
 	display: block;
 	width: 100%;
-	// background-color: $gray-light;
-	//box-shadow:0px 6px 6px -2px #676767;
-	 position: relative;
-
+	position: relative;
 }
 .productcontent {
 	display: block;
@@ -69,7 +58,6 @@
 }
 .product-img {
 	text-align: center;
-	//margin-bottom: 4rem;
 	margin-bottom: 64px;
 	img {
 		margin: 0 auto;
@@ -89,7 +77,7 @@
 .about-product {
 	padding-left: 18px;
 	display: inline-block;
-	// border: 1px solid #ccc;
+	margin-bottom: 30px;
 }
 .regmark {
 	font-size: 0.25rem;
@@ -101,7 +89,6 @@
 	text-transform: uppercase;
 	list-style: none;
 	font-size: 1.000rem;
-	//line-height: 0.875rem;
 	line-height: 1.9rem;
 	margin-bottom: 30px;
 	ul {
@@ -143,7 +130,6 @@
 .cart-tools {
 	display: inline-block;
 	width: 294px;
-	// border: 1px solid #ccc;
 	padding: 0px;
 	margin: 0px;
 }
@@ -153,7 +139,6 @@
 	padding-bottom: 30px;
 	display:block;
 	 position: relative;
-	//text-align: center;
 	.container {
 		width:1190px;
 	}
@@ -165,7 +150,6 @@
 			margin-left: 154px;
 			margin-bottom: 0;
 			padding-top: 0;
-		//	padding-left: 14px;
 		}
 		.write-review {
 			display: inline-block;
@@ -174,20 +158,16 @@
 	}
 	.review {
 		display: block;
-		// border: 1px solid #ccc;
 		width:100%;
 		margin-top: 38px;
 	}
 	.reviewer {
 		display: inline-block;
-	//	border: 1px solid #ccc;
 		width:154px;
 		vertical-align: top;
-		//float: left;
 	}
 	.review-content {
 		display: inline-block;
-	//	border: 1px solid #ccc;
 		width:800px;
 	}
 	.reviewer-img {
@@ -201,7 +181,6 @@
 		font-size: 1rem;
 	}
 	.review-content {
-		//padding-left: 14px;
 	}
 	.review-title {
 		.title {
@@ -218,13 +197,9 @@
 			img {
 				padding:.0rem .2rem .5rem .2rem;
 			}
-			//vertical-align: top;
-			//line-height: 2rem;
 		}
 	}
 	.review-txt {
-		// margin-top:30px;
-		//display: block;
 		padding-top:1.5rem;
 	}
 }

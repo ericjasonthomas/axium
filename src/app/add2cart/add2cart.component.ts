@@ -32,18 +32,15 @@ colorchange(e) {
 	this.SelectColor = e.target.value;
 }
 sizechange(e) {
-	console.log("yo " + e.target.value );
 	this.SelectSize = e.target.value;
 }
 
 plusone(){
 	this.SelectQuantity = this.SelectQuantity + 1;
-	console.log("yo " + this.SelectQuantity);
 }
 minusone(){
 	if (this.SelectQuantity >= 2){
 		this.SelectQuantity = this.SelectQuantity - 1;
-		console.log("yo " + this.SelectQuantity);
 	} else {
 		console.log("sorry can't do less then 1");
 	}
