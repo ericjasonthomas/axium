@@ -11,7 +11,7 @@ import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 
 export class ProductReviewFormComponent implements OnInit {
 	closeResult: string;
-  constructor() { }
+ // constructor() { }
 	constructor(private modalService: NgbModal) {}
 
 	open(content) {
